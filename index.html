@@ -3,17 +3,17 @@
 // Get URL
 var url = window.location.hostname;
 
-  // URL is testing site
-if (url = "sam-test.peaketechnology.com") {
-window.location.replace("https://peaketechnology.rmmservices.net/connect/#");
+// URL is testing site
+if (url === "sam-test.peaketechnology.com") {
+    window.location.replace("https://peaketechnology.rmmservices.net/connect/#");
 
     // URL is Remote site
-} else if (url = "remote.peaketechnology.com") {
-window.location.replace("https://peaketechnology.rmmservices.net");
+} else if (url === "remote.peaketechnology.com") {
+    window.location.replace("https://peaketechnology.rmmservices.net");
 
-    //Otherwise, Redirect to PEAKE Homepage
+    // Otherwise, Redirect to PEAKE Homepage
 } else {
-window.location.replace("https://peaketechnology.com");
+    window.location.replace("https://peaketechnology.com");
 }
-  </script>
-  </html>
+</script>
+</html>
